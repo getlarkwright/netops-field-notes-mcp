@@ -30,7 +30,7 @@ def _vendor(text: str, given: str) -> str:
 
 server = MCPServer(
     name="netops-field-notes",
-    version="0.1.0",
+    version="0.1.1",
     instructions="Read-only network engineering tools: config drift, compliance, 802.1X diagnosis, certificates "
                  "inside configs, device facts and topology, OPNsense rule changes, change pre-flight, config "
                  "sanitising. Paste configs and logs as text.",

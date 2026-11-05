@@ -1,8 +1,8 @@
 # Minimal image for clients that prefer to run the server in a container.
 FROM python:3.12-slim
 
-LABEL io.modelcontextprotocol.server.name="io.github.labaccessnow/netops-field-notes-mcp"
-LABEL org.opencontainers.image.source="https://github.com/labaccessnow/netops-field-notes-mcp"
+LABEL io.modelcontextprotocol.server.name="io.github.getlarkwright/netops-field-notes-mcp"
+LABEL org.opencontainers.image.source="https://github.com/getlarkwright/netops-field-notes-mcp"
 LABEL org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app

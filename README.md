@@ -16,7 +16,7 @@ Pin the version.
 **Claude Code**
 
 ```
-claude mcp add netops-field-notes -- uvx --from "git+https://github.com/labaccessnow/netops-field-notes-mcp@v0.1.0" netops-field-notes-mcp
+claude mcp add netops-field-notes -- uvx --from "git+https://github.com/getlarkwright/netops-field-notes-mcp@v0.1.1" netops-field-notes-mcp
 ```
 
 **Claude Desktop, Cursor, or any client with a JSON config**
@@ -26,7 +26,7 @@ claude mcp add netops-field-notes -- uvx --from "git+https://github.com/labacces
   "mcpServers": {
     "netops-field-notes": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/labaccessnow/netops-field-notes-mcp@v0.1.0", "netops-field-notes-mcp"]
+      "args": ["--from", "git+https://github.com/getlarkwright/netops-field-notes-mcp@v0.1.1", "netops-field-notes-mcp"]
     }
   }
 }
@@ -39,14 +39,14 @@ claude mcp add netops-field-notes -- uvx --from "git+https://github.com/labacces
   "mcpServers": {
     "netops-field-notes": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "ghcr.io/labaccessnow/netops-field-notes-mcp:0.1.0"]
+      "args": ["run", "-i", "--rm", "ghcr.io/getlarkwright/netops-field-notes-mcp:0.1.1"]
     }
   }
 }
 ```
 
 Python 3.10 or newer for the uvx route ([uv](https://docs.astral.sh/uv/) installs it). Also in the
-official MCP registry as `io.github.labaccessnow/netops-field-notes-mcp`.
+official MCP registry as `io.github.getlarkwright/netops-field-notes-mcp`.
 
 ## Tools
 
@@ -113,5 +113,5 @@ part, and they work on their own.
 
 ## Licence
 
-MIT. Written by James Son — network, security, and automation engineer — and run against a live
+MIT © Larkwright LLC. Written by James Son — network, security, and automation engineer — and run against a live
 multi-vendor lab before shipping. Corrections welcome, especially to the ISE code table.
